@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+          android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/cercle"
+        android:icon="@drawable/ic_cercle"
+        android:title="Cercle"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/joinacercle"
+                android:title="Circle beitreten " />
+
+            <item android:id="@+id/mycercle"
+                android:title="Meinen Circle " />
+
+            <item android:id="@+id/joinedcercle"
+                android:title="Beigetreten Circle" />
+
+            <item android:id="@+id/invite"
+                android:title="Code Teilen" />
+
+            <item android:id="@+id/mylocation"
+                android:title="Meine Lokalisation" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:id="@+id/singout"
+        android:icon="@drawable/ic_singout"
+        android:title="Sing Out"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
